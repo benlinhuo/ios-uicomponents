@@ -1,8 +1,9 @@
 ##FilterView
 
 这是APP里面使用它来进行筛选的一个组件，具体样式有如下三个图：
-
-
+![alt picture one](./1.jpg "图一")
+![alt picture one](./2.jpg "图二")
+![alt picture one](./3.jpg "图三")
 可以看出，这三个图的最上层筛选，是通过按钮进行类别区分的，如“区域”，“价格”，“户型”，“排序”。这四个都是继承于 UIButton 的 BFSFilterButton 。
 
 第一个图，是最简单的筛选的一个样式，如价格筛选，直接选择“200-300万元”，则表示我们想要选择价格处于“200-300万元”之间的房源列表。
@@ -13,6 +14,7 @@
 
 
 ###下面针对这个组件进行代码的解析
+![alt picture one](./4.jpg "图四")
 
 我们解析，可以针对上图4开讲，1 表示 BFSFilterButton，2 表示 BFSFilterTableView，3 表示 BFSFilterTableViewCell，与 BFSFilterTableViewCell 对应的模型是 BFSFilterItem 。其中该组件还有“更多”选项，但是因为还没使用案例，也没尝试，所以还不知道该怎么使用（应该不难，同二手房列表页面）。BFSFilterView 就是123所代码的整体部分。
 
@@ -155,4 +157,8 @@
 
 ### 总结
 
+<<<<<<< HEAD
 目前项目中使用了这个组件的类有 xxxPropertyListViewController 和 xxxBrokerListViewController 。可参见其使用。
+=======
+目前项目中使用了这个组件的类有 xxxPropertyListViewController 和 xxxBrokerListViewController 。可参见其使用。
+>>>>>>> image
