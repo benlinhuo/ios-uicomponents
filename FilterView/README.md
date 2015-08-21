@@ -157,8 +157,4 @@
 
 ### 总结
 
-<<<<<<< HEAD
 目前项目中使用了这个组件的类有 xxxPropertyListViewController 和 xxxBrokerListViewController 。可参见其使用。
-=======
-目前项目中使用了这个组件的类有 xxxPropertyListViewController 和 xxxBrokerListViewController 。可参见其使用。
->>>>>>> image
