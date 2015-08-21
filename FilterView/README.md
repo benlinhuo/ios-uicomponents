@@ -155,4 +155,4 @@
 
 ### 总结
 
-目前安个家项目中使用了这个组件的类有 AGJPropertyListViewController 和 AGJBrokerListViewController 。可参见其使用。
+目前项目中使用了这个组件的类有 xxxPropertyListViewController 和 xxxBrokerListViewController 。可参见其使用。
