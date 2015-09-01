@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AGJSliderView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="MtR-Uc-pL4">
+                    <rect key="frame" x="0.0" y="-15" width="118" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="gOr-7n-Mts"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="gOr-7n-Mts"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact" misplaced="YES">
+                        <rect key="frame" x="0.0" y="19" width="402" height="31"/>
+                        <mask key="constraints">
+                            <include reference="gOr-7n-Mts"/>
+                        </mask>
+                    </variation>
+                </slider>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DJB-bn-tQR" userLabel="currentLabel">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="widthClass=compact" misplaced="YES">
+                        <rect key="frame" x="0.0" y="0.0" width="34" height="14"/>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="800万以上" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FFB-Sw-Zeo" userLabel="rightLabel">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.24313725490196078" green="0.24313725490196078" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="widthClass=compact" misplaced="YES">
+                        <rect key="frame" x="325" y="48" width="72" height="16"/>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50万" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x6i-ps-2IF" userLabel="leftLabel">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="widthClass=compact" misplaced="YES">
+                        <rect key="frame" x="0.0" y="50" width="37" height="11"/>
+                    </variation>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="MtR-Uc-pL4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="4EK-YA-aUD"/>
+                <constraint firstItem="FFB-Sw-Zeo" firstAttribute="top" secondItem="MtR-Uc-pL4" secondAttribute="bottom" id="Auk-9g-B0G"/>
+                <constraint firstItem="x6i-ps-2IF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="B2d-vz-cu7"/>
+                <constraint firstItem="MtR-Uc-pL4" firstAttribute="top" secondItem="DJB-bn-tQR" secondAttribute="bottom" constant="5" id="I2z-FY-yfM"/>
+                <constraint firstItem="x6i-ps-2IF" firstAttribute="top" secondItem="MtR-Uc-pL4" secondAttribute="bottom" constant="2" id="VFK-1f-Ff6"/>
+                <constraint firstItem="DJB-bn-tQR" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="deC-0z-ZGt"/>
+                <constraint firstItem="DJB-bn-tQR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="dh3-Bc-4Ex"/>
+                <constraint firstAttribute="trailing" secondItem="MtR-Uc-pL4" secondAttribute="trailing" id="hDt-tC-EJG"/>
+                <constraint firstAttribute="trailing" secondItem="FFB-Sw-Zeo" secondAttribute="trailing" constant="8" id="rUi-kN-8yY">
+                    <variation key="widthClass=compact" constant="0.0"/>
+                </constraint>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="MtR-Uc-pL4"/>
+                    <exclude reference="DJB-bn-tQR"/>
+                    <exclude reference="FFB-Sw-Zeo"/>
+                    <exclude reference="x6i-ps-2IF"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="deC-0z-ZGt"/>
+                    <exclude reference="dh3-Bc-4Ex"/>
+                    <exclude reference="4EK-YA-aUD"/>
+                    <exclude reference="I2z-FY-yfM"/>
+                    <exclude reference="hDt-tC-EJG"/>
+                    <exclude reference="B2d-vz-cu7"/>
+                    <exclude reference="VFK-1f-Ff6"/>
+                    <exclude reference="Auk-9g-B0G"/>
+                    <exclude reference="rUi-kN-8yY"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="MtR-Uc-pL4"/>
+                    <include reference="DJB-bn-tQR"/>
+                    <include reference="FFB-Sw-Zeo"/>
+                    <include reference="x6i-ps-2IF"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="deC-0z-ZGt"/>
+                    <include reference="dh3-Bc-4Ex"/>
+                    <include reference="4EK-YA-aUD"/>
+                    <include reference="I2z-FY-yfM"/>
+                    <include reference="hDt-tC-EJG"/>
+                    <include reference="B2d-vz-cu7"/>
+                    <include reference="VFK-1f-Ff6"/>
+                    <include reference="Auk-9g-B0G"/>
+                    <include reference="rUi-kN-8yY"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="currentLabel" destination="DJB-bn-tQR" id="mZ6-ZS-RXt"/>
+                <outlet property="currentLabelConstant" destination="dh3-Bc-4Ex" id="90m-xO-Tq2"/>
+                <outlet property="leftLabel" destination="x6i-ps-2IF" id="1zz-jS-84V"/>
+                <outlet property="rightLabel" destination="FFB-Sw-Zeo" id="61E-nd-THy"/>
+                <outlet property="sliderView" destination="MtR-Uc-pL4" id="ghs-NS-ybh"/>
+            </connections>
+            <point key="canvasLocation" x="390" y="201"/>
+        </view>
+    </objects>
+</document>
