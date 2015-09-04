@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3396E7B8-B9EA-4C33-9E61-BF3424098938</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>37C031FB7EA5549DD84B7D245BA4725AD7EBC479</key>
+		<string>https://github.com/benlinhuo/ios-uicomponents.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SwipeComponent/SwipeComponent.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>37C031FB7EA5549DD84B7D245BA4725AD7EBC479</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/benlinhuo/ios-uicomponents.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>37C031FB7EA5549DD84B7D245BA4725AD7EBC479</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>37C031FB7EA5549DD84B7D245BA4725AD7EBC479</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios-uicomponents</string>
+		</dict>
+	</array>
+</dict>
+</plist>
