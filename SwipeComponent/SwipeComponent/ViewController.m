@@ -134,7 +134,7 @@
     if (contentOffset.x > kWidthOfScreen) {// 往左滑动
         _currentImageIndex = (_currentImageIndex + 1) % _imageCount;
     } else if (contentOffset.x < kWidthOfScreen) {
-        _currentImageIndex = (_currentImageIndex - 1) % _imageCount;
+        _currentImageIndex = (_currentImageIndex - 1 + _imageCount) % _imageCount;
     }
     
     [self setInfoByCurrentImageIndex:_currentImageIndex];

@@ -1,0 +1,17 @@
+//
+//  Chart-prefix.pch
+//  ChartLibraryCustom
+//
+//  Created by benlinhuo on 15/9/14.
+//  Copyright (c) 2015年 benlinhuo. All rights reserved.
+//
+
+// 在开发中，我们可以将整个工程都广泛使用的头文件包含在该文件下，编译器会自动的将 pch 文件中的头文件添加到所有的源文件中去，这样在需要使用相关类的时候就不需要使用import ，便可以直接使用头文件中的内容，带来便利。不过xcode6 以后便不再主动帮助 project 创建 pch 文件了
+
+#ifndef ChartLibraryCustom_Chart_prefix_pch
+#define ChartLibraryCustom_Chart_prefix_pch
+
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+
+#endif
