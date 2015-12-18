@@ -61,6 +61,11 @@
     }
 }
 
+- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSLog(@"22222");
+}
+
 #pragma mark - AGJRefreshTableHeaderViewDelegate
 - (void)refreshTableHeaderDidTriggerRefresh:(AGJRefreshTableHeaderView *)headerView
 {

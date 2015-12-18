@@ -12,7 +12,7 @@
 #define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
 #define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
 
-@interface ViewController ()<UITableViewDataSource, UITableViewDelegate, AGJTableViewDelegate>
+@interface ViewController ()<UITableViewDataSource, UITableViewDelegate, AGJTableViewDelegate, UIScrollViewDelegate>
 
 @property (nonatomic, strong) AGJTableView *tableView;
 
@@ -54,6 +54,10 @@
 }
 
 #pragma mark - UITableViewDelegate
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    NSLog(@"11111");
+}
 
 #pragma mark - AGJTableViewDelegate
 - (void)AGJTableViewDidTriggerRefresh:(AGJTableView *)AGJTableView
