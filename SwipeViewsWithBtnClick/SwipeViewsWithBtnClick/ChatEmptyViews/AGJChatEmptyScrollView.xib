@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AGJChatEmptyScrollView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QeB-5r-l3E">
+                    <rect key="frame" x="0.0" y="106" width="320" height="357"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="还没有和顾问微聊过？" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UNB-nd-agP">
+                            <rect key="frame" x="80" y="0.0" width="160" height="20"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" red="0.24313725490196078" green="0.24313725490196078" blue="0.24313725490196078" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="房产问题全知道，随时随地掌握" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="grj-CZ-7Mc">
+                            <rect key="frame" x="48" y="26" width="224" height="20"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" red="0.24313725489999999" green="0.24313725489999999" blue="0.24313725489999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M0w-H6-2jf">
+                            <rect key="frame" x="53" y="71" width="267" height="286"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="286" id="gmD-aH-4Nn"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="357" id="0E9-tA-kBE"/>
+                        <constraint firstItem="M0w-H6-2jf" firstAttribute="leading" secondItem="QeB-5r-l3E" secondAttribute="leading" constant="53" id="J3j-XB-O9O"/>
+                        <constraint firstItem="UNB-nd-agP" firstAttribute="centerX" secondItem="QeB-5r-l3E" secondAttribute="centerX" id="NUC-Sc-hPW"/>
+                        <constraint firstItem="grj-CZ-7Mc" firstAttribute="centerX" secondItem="QeB-5r-l3E" secondAttribute="centerX" id="bKb-8l-MPa"/>
+                        <constraint firstAttribute="trailing" secondItem="M0w-H6-2jf" secondAttribute="trailing" id="c4E-Jb-5Y1"/>
+                        <constraint firstItem="UNB-nd-agP" firstAttribute="top" secondItem="QeB-5r-l3E" secondAttribute="top" id="grQ-Yr-0IQ"/>
+                        <constraint firstItem="grj-CZ-7Mc" firstAttribute="top" secondItem="UNB-nd-agP" secondAttribute="bottom" constant="6" id="lGP-R9-wvy"/>
+                        <constraint firstItem="M0w-H6-2jf" firstAttribute="top" secondItem="grj-CZ-7Mc" secondAttribute="bottom" constant="25" id="ryD-eD-4Bh"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="QeB-5r-l3E" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="4gM-95-xc3"/>
+                <constraint firstAttribute="trailing" secondItem="QeB-5r-l3E" secondAttribute="trailing" id="Clx-1N-KaP"/>
+                <constraint firstItem="QeB-5r-l3E" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="JOb-y2-Sj0"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="containerView" destination="M0w-H6-2jf" id="8jP-Tc-n7O"/>
+                <outlet property="leftViewConstant" destination="J3j-XB-O9O" id="R9h-DI-8DT"/>
+            </connections>
+            <point key="canvasLocation" x="408" y="344"/>
+        </view>
+    </objects>
+</document>
