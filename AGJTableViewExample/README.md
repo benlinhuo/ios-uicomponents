@@ -122,7 +122,7 @@ MJRefresh 这个类实现了下拉刷新和上拉刷新的功能。AGJTableView 
 ##### MJRefresh 类结构图（官方的）
 这个类库，支持只要是 UIScrollView 或者其子类的下拉和上拉刷新功能。下拉和上拉的 view 都是在下面图中的各类来实现。真正把这样的 view 插入到 UIScrollView 中的是 UIScrollView+MJRefresh.h 文件中。
 
-![alt MJRefresh 类结构图][./images/mjrefresh.png] 
+![alt 'MJRefresh 类结构图'][https://github.com/benlinhuo/ios-uicomponents/blob/master/AGJTableViewExample/images/mjrefresh.png] 
 
 ##### MJRefresh 下拉刷新原理
 
