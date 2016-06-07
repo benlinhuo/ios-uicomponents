@@ -1,11 +1,11 @@
 ###AGJTableView 
 
-#####上拉刷新的原理
+####上拉刷新的原理
 
 其实就是在 UITableView 的上面加一个 headerView （上拉看到的样式，它的位置是负值），然后通过 UIScrollView（UITableView 本身就是继承于 UIScrollView ） 的offset设置位置设置当前是否看到 headerView 。
 
 
-##### MessageInterceptor
+#### MessageInterceptor
 
 其中用到了一个技术点是 消息动态转发机制：MessageInterceptor（自己写的）。
 
@@ -86,7 +86,7 @@ AGJTableView 继承于 UITableView ，假设我们的ViewController 使用了AGJ
 还有一点需要说明的是：UIScrollViewDelegate 和 UITableViewDelegate 都有一个属性是 delegate，而UITableView 继承了 UIScrollView 。所以我们在使用 UITableView 的时候，如 ViewController，只要设置 _tableView.delegate = self. 便可以在 ViewController 中，既使用 UIScrollViewDelegate，也可以使用 UITableViewDelegate。因为二者的属性重名了（且二者是继承关系）。
 
 
-##### 调用”加载中“消失的时机
+#### 调用”加载中“消失的时机
 
 其实它总共有三个状态，可以见该文件夹下的图：1> 下拉刷新; 2> 松开刷新; 3> 努力加载中。第三个状态啥时候被触发消失呢，比如可以在请求数据的API结束以后，所以这个是由使用这个组件 AGJTableView 的使用者决定的。我们通过一个属性来开启或关闭第三个状态（即只要设置 _tableView.pullTableIsRefreshing = NO 便可以结束第三个状态，回到已经加载过的正常浏览状态）。
 ```javascript
@@ -119,12 +119,12 @@ AGJTableView.m文件
 
 ###MJRefresh 实现原理解析
 MJRefresh 这个类实现了下拉刷新和上拉刷新的功能。AGJTableView 只实现了下拉刷新的功能。二者实现的原理不同。下面对 MJRefresh 的实现原理做一个分析。
-##### MJRefresh 类结构图（官方的）
+#### MJRefresh 类结构图（官方的）
 这个类库，支持只要是 UIScrollView 或者其子类的下拉和上拉刷新功能。下拉和上拉的 view 都是在下面图中的各类来实现。真正把这样的 view 插入到 UIScrollView 中的是 UIScrollView+MJRefresh.h 文件中。
 
-![alt 'MJRefresh 类结构图'][https://github.com/benlinhuo/ios-uicomponents/blob/master/AGJTableViewExample/images/mjrefresh.png] 
+![](https://github.com/benlinhuo/ios-uicomponents/blob/master/AGJTableViewExample/images/mjrefresh.png)
 
-##### MJRefresh 下拉刷新原理
+#### MJRefresh 下拉刷新原理
 
 在 UIScrollView+MJRefresh.h 文件中，有如下一段代码：
 ```javascript
@@ -294,7 +294,7 @@ MJRefresh 这个类实现了下拉刷新和上拉刷新的功能。AGJTableView 
 
 根据类结构图，其它的下拉刷新的类，主要就是用于定制样式了，真正的功能实现就是上述两个类。
 
-##### MJRefresh 上拉刷新原理
+#### MJRefresh 上拉刷新原理
 这和下拉刷新的 view 公用一个基类 MJRefreshComponent 。因为不论是上拉还是下拉，它其实就是一段 view ，根据它插入的位置来决定它是上拉还是下拉，所以它们是可以有公用的 view 类的。
 
 上拉在 UIScrollView+MJRefresh.m 中实现如下：
