@@ -1,6 +1,6 @@
 ####简介
 这个组件是在 APP 内，模拟苹果系统通知栏接收消息并展示这样的一个交互。如图：
-![][]
+![][https://github.com/benlinhuo/ios-uicomponents/blob/master/HBLStatusBar/images/showImg.png]
 
 
 ####原理简单介绍
