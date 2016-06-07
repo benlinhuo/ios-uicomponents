@@ -1,0 +1,13 @@
+Pods
+Podfile.lock
+Angejia.xcodeproj/xcuserdata
+Angejia.xcworkspace/xcuserdata
+.DS_Store
+*.swp
+.idea/
+build/
+Angejia.xcodeproj/project.xcworkspace/xcshareddata
+Angejia.xcworkspace/xcshareddata/
+/iOSInjectionProjec/*
+/iOSInjectionProject
+Angejia/main.m
