@@ -1,7 +1,7 @@
 ####简介
 这个组件是在 APP 内，模拟苹果系统通知栏接收消息并展示这样的一个交互。如图：
-![][https://github.com/benlinhuo/ios-uicomponents/blob/master/HBLStatusBar/images/showImg.png]
 
+![](https://github.com/benlinhuo/ios-uicomponents/blob/master/HBLStatusBar/images/showImg.png)
 
 ####原理简单介绍
 创建了一个 UIWindow，上图中消息展示的整个区域都是添加到这个 window 中的(这个 window 的层级设置到我们正常 APP 的层级之上)。这个 window 还添加了 viewController，如下代码：
