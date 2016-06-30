@@ -28,12 +28,28 @@
 
 - (void)gotoBrokerDetailPage:(AGJBroker *)broker
 {
-    NSLog(@"此时应该进入房源单页");
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"房源单页" message:nil preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
+        
+    }];
+    [alertController addAction:cancelAction];
+    
+    [self presentViewController:alertController animated:NO completion:
+     nil];
 }
 
 - (void)gotoChatDetailPage:(AGJBroker *)broker
 {
-    NSLog(@"此时应该进入微聊单页");
+    
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"微聊单页" message:nil preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
+        
+    }];
+    [alertController addAction:cancelAction];
+    
+    [self presentViewController:alertController animated:NO completion:
+        nil];
+
 }
 
 - (AGJChatEmptyScrollView *)emptyResultView
