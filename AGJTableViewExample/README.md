@@ -9,7 +9,7 @@
 
 其中用到了一个技术点是 消息动态转发机制：MessageInterceptor（自己写的）。
 
-AGJTableView 继承于 UITableView ，假设我们的ViewController 使用了AGJTableView（关系描述）。这样我们其实在调用 UIScrollViewDelegate 的方法时，默认只有 ViewController 这个类才能调用，但是我们想要把滚动调用 UIScrollViewDelegate 的方法进行的一些操作封装在 AGJTableView 类中（写成一个组件）。这样我们就必须要在 AGJTableView 中调用，所以就对消息转发做了一层变化（即 MessageInterceptor 类内容）
+AGJTableView 继承于 UITableView ，假设我们的ViewController 使用了AGJTableView（关系描述）。这样我们其实在调用 UIScrollViewDelegate 的方法时，绝大部分情况 ViewController 这个类肯定需要调用，但是我们想要把滚动调用 UIScrollViewDelegate 的方法进行的一些操作封装在 AGJTableView 类中（写成一个组件）。这样我们就必须要在 AGJTableView 中调用，所以就对消息转发做了一层变化（即 MessageInterceptor 类内容）
 ```javascript
 
 1. MessageInterceptor.h 文件
