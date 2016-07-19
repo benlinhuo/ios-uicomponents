@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C523B15F1D3CA8B900C591A6 /* AGJHomeFunctionContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C523B15E1D3CA8B900C591A6 /* AGJHomeFunctionContainerView.m */; };
+		C523B1621D3CA8DA00C591A6 /* AGJSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C523B1611D3CA8DA00C591A6 /* AGJSegmentView.m */; };
+		C523B1651D3CAA5100C591A6 /* AGJSegmentButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C523B1641D3CAA5100C591A6 /* AGJSegmentButton.m */; };
+		C523B1671D3CAD5100C591A6 /* UIView+Line.m in Sources */ = {isa = PBXBuildFile; fileRef = C523B1661D3CAD5100C591A6 /* UIView+Line.m */; };
+		C523B16B1D3CAD8800C591A6 /* UIView+BFS.m in Sources */ = {isa = PBXBuildFile; fileRef = C523B16A1D3CAD8800C591A6 /* UIView+BFS.m */; };
+		C523B16E1D3CADF700C591A6 /* UIView+HandyAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C523B16D1D3CADF700C591A6 /* UIView+HandyAutoLayout.m */; };
+		C523B1771D3D273F00C591A6 /* AGJHomeFindHouseAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C523B1721D3D273F00C591A6 /* AGJHomeFindHouseAdapter.m */; };
+		C523B1781D3D273F00C591A6 /* AGJHomeVisitAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C523B1741D3D273F00C591A6 /* AGJHomeVisitAdapter.m */; };
+		C523B1791D3D273F00C591A6 /* AGJHomeTradeAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C523B1761D3D273F00C591A6 /* AGJHomeTradeAdapter.m */; };
+		C55F5E271D2D0F6F00B799DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C55F5E261D2D0F6F00B799DF /* main.m */; };
+		C55F5E2A1D2D0F6F00B799DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C55F5E291D2D0F6F00B799DF /* AppDelegate.m */; };
+		C55F5E2D1D2D0F6F00B799DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C55F5E2C1D2D0F6F00B799DF /* ViewController.m */; };
+		C55F5E301D2D0F6F00B799DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55F5E2E1D2D0F6F00B799DF /* Main.storyboard */; };
+		C55F5E321D2D0F6F00B799DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55F5E311D2D0F6F00B799DF /* Assets.xcassets */; };
+		C55F5E351D2D0F6F00B799DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55F5E331D2D0F6F00B799DF /* LaunchScreen.storyboard */; };
+		C55F5E3F1D2D251000B799DF /* AGJLayerAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C55F5E3E1D2D251000B799DF /* AGJLayerAnimationView.m */; };
+		C55F5E431D2DF53F00B799DF /* AGJHomeGuidView.m in Sources */ = {isa = PBXBuildFile; fileRef = C55F5E421D2DF53F00B799DF /* AGJHomeGuidView.m */; };
+		C55F5E481D2DF5DD00B799DF /* UIImage+BFS.m in Sources */ = {isa = PBXBuildFile; fileRef = C55F5E471D2DF5DD00B799DF /* UIImage+BFS.m */; };
+		C55F5E4B1D2DF5ED00B799DF /* UIColor+BFS.m in Sources */ = {isa = PBXBuildFile; fileRef = C55F5E4A1D2DF5ED00B799DF /* UIColor+BFS.m */; };
+		C55F5E4E1D2DF60100B799DF /* UIColor+AngejiaStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = C55F5E4D1D2DF60100B799DF /* UIColor+AngejiaStyle.m */; };
+		C55F5E511D2DF60B00B799DF /* UIFont+AngejiaStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = C55F5E501D2DF60B00B799DF /* UIFont+AngejiaStyle.m */; };
+		C55F5E541D2DF63D00B799DF /* AGJEnvironmentConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = C55F5E531D2DF63D00B799DF /* AGJEnvironmentConfigure.m */; };
+		C55F5E571D2E11A600B799DF /* UIButton+BFSStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = C55F5E561D2E11A600B799DF /* UIButton+BFSStyle.m */; };
+		C55F5E5B1D2E11DA00B799DF /* UIButton+AGJStandard.m in Sources */ = {isa = PBXBuildFile; fileRef = C55F5E5A1D2E11DA00B799DF /* UIButton+AGJStandard.m */; };
+		C55F5E5E1D2E11E500B799DF /* UIColor+AGJStandard.m in Sources */ = {isa = PBXBuildFile; fileRef = C55F5E5D1D2E11E500B799DF /* UIColor+AGJStandard.m */; };
+		C55F5E611D2E11F200B799DF /* UIFont+AGJStandard.m in Sources */ = {isa = PBXBuildFile; fileRef = C55F5E601D2E11F200B799DF /* UIFont+AGJStandard.m */; };
+		C55F5E651D2E138900B799DF /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = C55F5E641D2E138900B799DF /* UIView+LayoutMethods.m */; };
+		C55F5E681D2E173B00B799DF /* AnimationVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C55F5E671D2E173B00B799DF /* AnimationVIewController.m */; };
+		C55F5E6B1D2E175800B799DF /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C55F5E6A1D2E175800B799DF /* ScrollViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C523B15D1D3CA8B900C591A6 /* AGJHomeFunctionContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGJHomeFunctionContainerView.h; sourceTree = "<group>"; };
+		C523B15E1D3CA8B900C591A6 /* AGJHomeFunctionContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGJHomeFunctionContainerView.m; sourceTree = "<group>"; };
+		C523B1601D3CA8DA00C591A6 /* AGJSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGJSegmentView.h; sourceTree = "<group>"; };
+		C523B1611D3CA8DA00C591A6 /* AGJSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGJSegmentView.m; sourceTree = "<group>"; };
+		C523B1631D3CAA5100C591A6 /* AGJSegmentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGJSegmentButton.h; sourceTree = "<group>"; };
+		C523B1641D3CAA5100C591A6 /* AGJSegmentButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGJSegmentButton.m; sourceTree = "<group>"; };
+		C523B1661D3CAD5100C591A6 /* UIView+Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Line.m"; sourceTree = "<group>"; };
+		C523B1681D3CAD6000C591A6 /* UIView+Line.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Line.h"; sourceTree = "<group>"; };
+		C523B1691D3CAD8800C591A6 /* UIView+BFS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BFS.h"; sourceTree = "<group>"; };
+		C523B16A1D3CAD8800C591A6 /* UIView+BFS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BFS.m"; sourceTree = "<group>"; };
+		C523B16C1D3CADF700C591A6 /* UIView+HandyAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HandyAutoLayout.h"; sourceTree = "<group>"; };
+		C523B16D1D3CADF700C591A6 /* UIView+HandyAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HandyAutoLayout.m"; sourceTree = "<group>"; };
+		C523B1711D3D273F00C591A6 /* AGJHomeFindHouseAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGJHomeFindHouseAdapter.h; sourceTree = "<group>"; };
+		C523B1721D3D273F00C591A6 /* AGJHomeFindHouseAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGJHomeFindHouseAdapter.m; sourceTree = "<group>"; };
+		C523B1731D3D273F00C591A6 /* AGJHomeVisitAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGJHomeVisitAdapter.h; sourceTree = "<group>"; };
+		C523B1741D3D273F00C591A6 /* AGJHomeVisitAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGJHomeVisitAdapter.m; sourceTree = "<group>"; };
+		C523B1751D3D273F00C591A6 /* AGJHomeTradeAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGJHomeTradeAdapter.h; sourceTree = "<group>"; };
+		C523B1761D3D273F00C591A6 /* AGJHomeTradeAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGJHomeTradeAdapter.m; sourceTree = "<group>"; };
+		C55F5E221D2D0F6F00B799DF /* AGJHomeAdsorbAndBigShineButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGJHomeAdsorbAndBigShineButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55F5E261D2D0F6F00B799DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C55F5E281D2D0F6F00B799DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C55F5E291D2D0F6F00B799DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C55F5E2B1D2D0F6F00B799DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C55F5E2C1D2D0F6F00B799DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C55F5E2F1D2D0F6F00B799DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C55F5E311D2D0F6F00B799DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C55F5E341D2D0F6F00B799DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C55F5E361D2D0F6F00B799DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C55F5E3D1D2D251000B799DF /* AGJLayerAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGJLayerAnimationView.h; sourceTree = "<group>"; };
+		C55F5E3E1D2D251000B799DF /* AGJLayerAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGJLayerAnimationView.m; sourceTree = "<group>"; };
+		C55F5E411D2DF53F00B799DF /* AGJHomeGuidView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGJHomeGuidView.h; sourceTree = "<group>"; };
+		C55F5E421D2DF53F00B799DF /* AGJHomeGuidView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGJHomeGuidView.m; sourceTree = "<group>"; };
+		C55F5E461D2DF5DD00B799DF /* UIImage+BFS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BFS.h"; sourceTree = "<group>"; };
+		C55F5E471D2DF5DD00B799DF /* UIImage+BFS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BFS.m"; sourceTree = "<group>"; };
+		C55F5E491D2DF5ED00B799DF /* UIColor+BFS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BFS.h"; sourceTree = "<group>"; };
+		C55F5E4A1D2DF5ED00B799DF /* UIColor+BFS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BFS.m"; sourceTree = "<group>"; };
+		C55F5E4C1D2DF60100B799DF /* UIColor+AngejiaStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AngejiaStyle.h"; sourceTree = "<group>"; };
+		C55F5E4D1D2DF60100B799DF /* UIColor+AngejiaStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AngejiaStyle.m"; sourceTree = "<group>"; };
+		C55F5E4F1D2DF60B00B799DF /* UIFont+AngejiaStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+AngejiaStyle.h"; sourceTree = "<group>"; };
+		C55F5E501D2DF60B00B799DF /* UIFont+AngejiaStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+AngejiaStyle.m"; sourceTree = "<group>"; };
+		C55F5E521D2DF63D00B799DF /* AGJEnvironmentConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGJEnvironmentConfigure.h; sourceTree = "<group>"; };
+		C55F5E531D2DF63D00B799DF /* AGJEnvironmentConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGJEnvironmentConfigure.m; sourceTree = "<group>"; };
+		C55F5E551D2E11A600B799DF /* UIButton+BFSStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BFSStyle.h"; sourceTree = "<group>"; };
+		C55F5E561D2E11A600B799DF /* UIButton+BFSStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BFSStyle.m"; sourceTree = "<group>"; };
+		C55F5E581D2E11C100B799DF /* AGJUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGJUI.h; sourceTree = "<group>"; };
+		C55F5E591D2E11DA00B799DF /* UIButton+AGJStandard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AGJStandard.h"; sourceTree = "<group>"; };
+		C55F5E5A1D2E11DA00B799DF /* UIButton+AGJStandard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AGJStandard.m"; sourceTree = "<group>"; };
+		C55F5E5C1D2E11E500B799DF /* UIColor+AGJStandard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AGJStandard.h"; sourceTree = "<group>"; };
+		C55F5E5D1D2E11E500B799DF /* UIColor+AGJStandard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AGJStandard.m"; sourceTree = "<group>"; };
+		C55F5E5F1D2E11F200B799DF /* UIFont+AGJStandard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+AGJStandard.h"; sourceTree = "<group>"; };
+		C55F5E601D2E11F200B799DF /* UIFont+AGJStandard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+AGJStandard.m"; sourceTree = "<group>"; };
+		C55F5E621D2E11FE00B799DF /* AGJRadius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGJRadius.h; sourceTree = "<group>"; };
+		C55F5E631D2E138900B799DF /* UIView+LayoutMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutMethods.h"; sourceTree = "<group>"; };
+		C55F5E641D2E138900B799DF /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutMethods.m"; sourceTree = "<group>"; };
+		C55F5E661D2E173B00B799DF /* AnimationVIewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationVIewController.h; sourceTree = "<group>"; };
+		C55F5E671D2E173B00B799DF /* AnimationVIewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationVIewController.m; sourceTree = "<group>"; };
+		C55F5E691D2E175800B799DF /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
+		C55F5E6A1D2E175800B799DF /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C55F5E1F1D2D0F6F00B799DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C55F5E191D2D0F6F00B799DF = {
+			isa = PBXGroup;
+			children = (
+				C55F5E241D2D0F6F00B799DF /* AGJHomeAdsorbAndBigShineButton */,
+				C55F5E231D2D0F6F00B799DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C55F5E231D2D0F6F00B799DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C55F5E221D2D0F6F00B799DF /* AGJHomeAdsorbAndBigShineButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C55F5E241D2D0F6F00B799DF /* AGJHomeAdsorbAndBigShineButton */ = {
+			isa = PBXGroup;
+			children = (
+				C55F5E6C1D2E279600B799DF /* scroll */,
+				C55F5E451D2DF5A400B799DF /* library */,
+				C55F5E3C1D2D24DD00B799DF /* animation */,
+				C55F5E281D2D0F6F00B799DF /* AppDelegate.h */,
+				C55F5E291D2D0F6F00B799DF /* AppDelegate.m */,
+				C55F5E2B1D2D0F6F00B799DF /* ViewController.h */,
+				C55F5E2C1D2D0F6F00B799DF /* ViewController.m */,
+				C55F5E661D2E173B00B799DF /* AnimationVIewController.h */,
+				C55F5E671D2E173B00B799DF /* AnimationVIewController.m */,
+				C55F5E691D2E175800B799DF /* ScrollViewController.h */,
+				C55F5E6A1D2E175800B799DF /* ScrollViewController.m */,
+				C55F5E2E1D2D0F6F00B799DF /* Main.storyboard */,
+				C55F5E311D2D0F6F00B799DF /* Assets.xcassets */,
+				C55F5E331D2D0F6F00B799DF /* LaunchScreen.storyboard */,
+				C55F5E361D2D0F6F00B799DF /* Info.plist */,
+				C55F5E251D2D0F6F00B799DF /* Supporting Files */,
+			);
+			path = AGJHomeAdsorbAndBigShineButton;
+			sourceTree = "<group>";
+		};
+		C55F5E251D2D0F6F00B799DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C55F5E261D2D0F6F00B799DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C55F5E3C1D2D24DD00B799DF /* animation */ = {
+			isa = PBXGroup;
+			children = (
+				C55F5E3D1D2D251000B799DF /* AGJLayerAnimationView.h */,
+				C55F5E3E1D2D251000B799DF /* AGJLayerAnimationView.m */,
+				C55F5E411D2DF53F00B799DF /* AGJHomeGuidView.h */,
+				C55F5E421D2DF53F00B799DF /* AGJHomeGuidView.m */,
+			);
+			name = animation;
+			sourceTree = "<group>";
+		};
+		C55F5E451D2DF5A400B799DF /* library */ = {
+			isa = PBXGroup;
+			children = (
+				C55F5E461D2DF5DD00B799DF /* UIImage+BFS.h */,
+				C55F5E471D2DF5DD00B799DF /* UIImage+BFS.m */,
+				C55F5E491D2DF5ED00B799DF /* UIColor+BFS.h */,
+				C55F5E4A1D2DF5ED00B799DF /* UIColor+BFS.m */,
+				C55F5E4C1D2DF60100B799DF /* UIColor+AngejiaStyle.h */,
+				C55F5E4D1D2DF60100B799DF /* UIColor+AngejiaStyle.m */,
+				C55F5E4F1D2DF60B00B799DF /* UIFont+AngejiaStyle.h */,
+				C55F5E501D2DF60B00B799DF /* UIFont+AngejiaStyle.m */,
+				C55F5E521D2DF63D00B799DF /* AGJEnvironmentConfigure.h */,
+				C55F5E531D2DF63D00B799DF /* AGJEnvironmentConfigure.m */,
+				C55F5E551D2E11A600B799DF /* UIButton+BFSStyle.h */,
+				C55F5E561D2E11A600B799DF /* UIButton+BFSStyle.m */,
+				C55F5E581D2E11C100B799DF /* AGJUI.h */,
+				C55F5E591D2E11DA00B799DF /* UIButton+AGJStandard.h */,
+				C55F5E5A1D2E11DA00B799DF /* UIButton+AGJStandard.m */,
+				C55F5E5C1D2E11E500B799DF /* UIColor+AGJStandard.h */,
+				C55F5E5D1D2E11E500B799DF /* UIColor+AGJStandard.m */,
+				C55F5E5F1D2E11F200B799DF /* UIFont+AGJStandard.h */,
+				C55F5E601D2E11F200B799DF /* UIFont+AGJStandard.m */,
+				C55F5E621D2E11FE00B799DF /* AGJRadius.h */,
+				C55F5E631D2E138900B799DF /* UIView+LayoutMethods.h */,
+				C55F5E641D2E138900B799DF /* UIView+LayoutMethods.m */,
+				C523B1681D3CAD6000C591A6 /* UIView+Line.h */,
+				C523B1661D3CAD5100C591A6 /* UIView+Line.m */,
+				C523B1691D3CAD8800C591A6 /* UIView+BFS.h */,
+				C523B16A1D3CAD8800C591A6 /* UIView+BFS.m */,
+				C523B16C1D3CADF700C591A6 /* UIView+HandyAutoLayout.h */,
+				C523B16D1D3CADF700C591A6 /* UIView+HandyAutoLayout.m */,
+			);
+			path = library;
+			sourceTree = "<group>";
+		};
+		C55F5E6C1D2E279600B799DF /* scroll */ = {
+			isa = PBXGroup;
+			children = (
+				C523B15D1D3CA8B900C591A6 /* AGJHomeFunctionContainerView.h */,
+				C523B15E1D3CA8B900C591A6 /* AGJHomeFunctionContainerView.m */,
+				C523B1601D3CA8DA00C591A6 /* AGJSegmentView.h */,
+				C523B1611D3CA8DA00C591A6 /* AGJSegmentView.m */,
+				C523B1631D3CAA5100C591A6 /* AGJSegmentButton.h */,
+				C523B1641D3CAA5100C591A6 /* AGJSegmentButton.m */,
+				C523B1711D3D273F00C591A6 /* AGJHomeFindHouseAdapter.h */,
+				C523B1721D3D273F00C591A6 /* AGJHomeFindHouseAdapter.m */,
+				C523B1731D3D273F00C591A6 /* AGJHomeVisitAdapter.h */,
+				C523B1741D3D273F00C591A6 /* AGJHomeVisitAdapter.m */,
+				C523B1751D3D273F00C591A6 /* AGJHomeTradeAdapter.h */,
+				C523B1761D3D273F00C591A6 /* AGJHomeTradeAdapter.m */,
+			);
+			path = scroll;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C55F5E211D2D0F6F00B799DF /* AGJHomeAdsorbAndBigShineButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55F5E391D2D0F6F00B799DF /* Build configuration list for PBXNativeTarget "AGJHomeAdsorbAndBigShineButton" */;
+			buildPhases = (
+				C55F5E1E1D2D0F6F00B799DF /* Sources */,
+				C55F5E1F1D2D0F6F00B799DF /* Frameworks */,
+				C55F5E201D2D0F6F00B799DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AGJHomeAdsorbAndBigShineButton;
+			productName = AGJHomeAdsorbAndBigShineButton;
+			productReference = C55F5E221D2D0F6F00B799DF /* AGJHomeAdsorbAndBigShineButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C55F5E1A1D2D0F6F00B799DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Benlinhuo;
+				TargetAttributes = {
+					C55F5E211D2D0F6F00B799DF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = C55F5E1D1D2D0F6F00B799DF /* Build configuration list for PBXProject "AGJHomeAdsorbAndBigShineButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C55F5E191D2D0F6F00B799DF;
+			productRefGroup = C55F5E231D2D0F6F00B799DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C55F5E211D2D0F6F00B799DF /* AGJHomeAdsorbAndBigShineButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C55F5E201D2D0F6F00B799DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55F5E351D2D0F6F00B799DF /* LaunchScreen.storyboard in Resources */,
+				C55F5E321D2D0F6F00B799DF /* Assets.xcassets in Resources */,
+				C55F5E301D2D0F6F00B799DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C55F5E1E1D2D0F6F00B799DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55F5E511D2DF60B00B799DF /* UIFont+AngejiaStyle.m in Sources */,
+				C55F5E3F1D2D251000B799DF /* AGJLayerAnimationView.m in Sources */,
+				C55F5E4E1D2DF60100B799DF /* UIColor+AngejiaStyle.m in Sources */,
+				C55F5E681D2E173B00B799DF /* AnimationVIewController.m in Sources */,
+				C55F5E2D1D2D0F6F00B799DF /* ViewController.m in Sources */,
+				C523B1771D3D273F00C591A6 /* AGJHomeFindHouseAdapter.m in Sources */,
+				C55F5E4B1D2DF5ED00B799DF /* UIColor+BFS.m in Sources */,
+				C523B1621D3CA8DA00C591A6 /* AGJSegmentView.m in Sources */,
+				C55F5E5B1D2E11DA00B799DF /* UIButton+AGJStandard.m in Sources */,
+				C55F5E651D2E138900B799DF /* UIView+LayoutMethods.m in Sources */,
+				C55F5E571D2E11A600B799DF /* UIButton+BFSStyle.m in Sources */,
+				C55F5E5E1D2E11E500B799DF /* UIColor+AGJStandard.m in Sources */,
+				C523B15F1D3CA8B900C591A6 /* AGJHomeFunctionContainerView.m in Sources */,
+				C523B1781D3D273F00C591A6 /* AGJHomeVisitAdapter.m in Sources */,
+				C55F5E2A1D2D0F6F00B799DF /* AppDelegate.m in Sources */,
+				C55F5E481D2DF5DD00B799DF /* UIImage+BFS.m in Sources */,
+				C523B16E1D3CADF700C591A6 /* UIView+HandyAutoLayout.m in Sources */,
+				C523B1651D3CAA5100C591A6 /* AGJSegmentButton.m in Sources */,
+				C523B1671D3CAD5100C591A6 /* UIView+Line.m in Sources */,
+				C523B16B1D3CAD8800C591A6 /* UIView+BFS.m in Sources */,
+				C523B1791D3D273F00C591A6 /* AGJHomeTradeAdapter.m in Sources */,
+				C55F5E611D2E11F200B799DF /* UIFont+AGJStandard.m in Sources */,
+				C55F5E271D2D0F6F00B799DF /* main.m in Sources */,
+				C55F5E431D2DF53F00B799DF /* AGJHomeGuidView.m in Sources */,
+				C55F5E541D2DF63D00B799DF /* AGJEnvironmentConfigure.m in Sources */,
+				C55F5E6B1D2E175800B799DF /* ScrollViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C55F5E2E1D2D0F6F00B799DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C55F5E2F1D2D0F6F00B799DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C55F5E331D2D0F6F00B799DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C55F5E341D2D0F6F00B799DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C55F5E371D2D0F6F00B799DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C55F5E381D2D0F6F00B799DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C55F5E3A1D2D0F6F00B799DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AGJHomeAdsorbAndBigShineButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.angejia.member.AGJHomeAdsorbAndBigShineButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C55F5E3B1D2D0F6F00B799DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AGJHomeAdsorbAndBigShineButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.angejia.member.AGJHomeAdsorbAndBigShineButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C55F5E1D1D2D0F6F00B799DF /* Build configuration list for PBXProject "AGJHomeAdsorbAndBigShineButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55F5E371D2D0F6F00B799DF /* Debug */,
+				C55F5E381D2D0F6F00B799DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C55F5E391D2D0F6F00B799DF /* Build configuration list for PBXNativeTarget "AGJHomeAdsorbAndBigShineButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55F5E3A1D2D0F6F00B799DF /* Debug */,
+				C55F5E3B1D2D0F6F00B799DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C55F5E1A1D2D0F6F00B799DF /* Project object */;
+}
