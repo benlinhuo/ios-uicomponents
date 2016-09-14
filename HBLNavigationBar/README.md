@@ -1,4 +1,4 @@
-这个组件的效果如下：
+这个组件主要是头部导航栏，随着我们滚动位置，头部导航栏由不展示变成展示，效果如下：
 
 ![初始状态](https://github.com/benlinhuo/ios-uicomponents/blob/master/HBLNavigationBar/images/1.png)
 
