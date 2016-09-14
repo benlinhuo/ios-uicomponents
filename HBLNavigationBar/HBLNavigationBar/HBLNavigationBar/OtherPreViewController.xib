@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OtherPreViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZNd-4a-ZV1">
+                    <rect key="frame" x="17" y="100" width="287" height="57"/>
+                    <color key="backgroundColor" red="1" green="0.42745098040000001" blue="0.29411764709999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="287" id="3zH-1i-0RB"/>
+                        <constraint firstAttribute="height" constant="57" id="IAz-rJ-JV1"/>
+                    </constraints>
+                    <state key="normal" title="enter next other ViewController"/>
+                    <connections>
+                        <action selector="enterNextOtherVC:" destination="-1" eventType="touchUpInside" id="aY7-UJ-qJT"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ZNd-4a-ZV1" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="OgH-Zr-qdl"/>
+                <constraint firstItem="ZNd-4a-ZV1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="Pk8-6I-4H7"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="315" y="227"/>
+        </view>
+    </objects>
+</document>

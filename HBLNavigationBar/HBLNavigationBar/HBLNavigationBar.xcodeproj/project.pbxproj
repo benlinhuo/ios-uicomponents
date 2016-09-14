@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5E3C9BB1D7916C900C1285C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3C9BA1D7916C900C1285C /* main.m */; };
+		C5E3C9BE1D7916C900C1285C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3C9BD1D7916C900C1285C /* AppDelegate.m */; };
+		C5E3C9C11D7916C900C1285C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3C9C01D7916C900C1285C /* ViewController.m */; };
+		C5E3C9C41D7916C900C1285C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5E3C9C21D7916C900C1285C /* Main.storyboard */; };
+		C5E3C9C61D7916C900C1285C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5E3C9C51D7916C900C1285C /* Assets.xcassets */; };
+		C5E3C9C91D7916C900C1285C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5E3C9C71D7916C900C1285C /* LaunchScreen.storyboard */; };
+		C5E3C9D31D7958B200C1285C /* HBLTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3C9D11D7958B200C1285C /* HBLTabBarViewController.m */; };
+		C5E3C9D41D7958B200C1285C /* HBLTabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E3C9D21D7958B200C1285C /* HBLTabBarViewController.xib */; };
+		C5E3C9D71D795CF000C1285C /* HBLBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3C9D61D795CF000C1285C /* HBLBasicViewController.m */; };
+		C5E3C9DE1D79601100C1285C /* UIColor+BFS.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3C9DD1D79601100C1285C /* UIColor+BFS.m */; };
+		C5E3C9E21D7C585C00C1285C /* HBLFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3C9E01D7C585C00C1285C /* HBLFirstViewController.m */; };
+		C5E3C9E31D7C585C00C1285C /* HBLFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E3C9E11D7C585C00C1285C /* HBLFirstViewController.xib */; };
+		C5E3C9E71D7C5AF000C1285C /* OtherNaviagtionBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3C9E51D7C5AF000C1285C /* OtherNaviagtionBarViewController.m */; };
+		C5E3C9E81D7C5AF000C1285C /* OtherNaviagtionBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E3C9E61D7C5AF000C1285C /* OtherNaviagtionBarViewController.xib */; };
+		C5E3C9EC1D7C5B0700C1285C /* MyNavigationBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3C9EA1D7C5B0700C1285C /* MyNavigationBarViewController.m */; };
+		C5E3C9ED1D7C5B0700C1285C /* MyNavigationBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E3C9EB1D7C5B0700C1285C /* MyNavigationBarViewController.xib */; };
+		C5E3C9F01D7C5D0D00C1285C /* HBLNavigationBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3C9EF1D7C5D0D00C1285C /* HBLNavigationBarView.m */; };
+		C5E3C9F31D7C5EAD00C1285C /* UIView+BFS.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3C9F21D7C5EAD00C1285C /* UIView+BFS.m */; };
+		C5E3C9F81D7C6C8100C1285C /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3C9F71D7C6C8100C1285C /* UINavigationBar+Awesome.m */; };
+		C5E3C9FB1D7C6EED00C1285C /* HBLNavigationBarObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3C9FA1D7C6EED00C1285C /* HBLNavigationBarObject.m */; };
+		C5E3C9FD1D7C722100C1285C /* UIBarButtonItem+NavItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3C9FC1D7C722100C1285C /* UIBarButtonItem+NavItem.m */; };
+		C5E3CA021D7C74E700C1285C /* OtherNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3CA001D7C74E700C1285C /* OtherNextViewController.m */; };
+		C5E3CA031D7C74E700C1285C /* OtherNextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E3CA011D7C74E700C1285C /* OtherNextViewController.xib */; };
+		C5E3CA071D7C754100C1285C /* OtherPreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3CA051D7C754100C1285C /* OtherPreViewController.m */; };
+		C5E3CA081D7C754100C1285C /* OtherPreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E3CA061D7C754100C1285C /* OtherPreViewController.xib */; };
+		C5E3CA0C1D7C771C00C1285C /* MyNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3CA0A1D7C771C00C1285C /* MyNextViewController.m */; };
+		C5E3CA0D1D7C771C00C1285C /* MyNextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E3CA0B1D7C771C00C1285C /* MyNextViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C5E3C9B61D7916C900C1285C /* HBLNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBLNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5E3C9BA1D7916C900C1285C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5E3C9BC1D7916C900C1285C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5E3C9BD1D7916C900C1285C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5E3C9BF1D7916C900C1285C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5E3C9C01D7916C900C1285C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C5E3C9C31D7916C900C1285C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5E3C9C51D7916C900C1285C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5E3C9C81D7916C900C1285C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5E3C9CA1D7916C900C1285C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5E3C9D01D7958B200C1285C /* HBLTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBLTabBarViewController.h; sourceTree = "<group>"; };
+		C5E3C9D11D7958B200C1285C /* HBLTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBLTabBarViewController.m; sourceTree = "<group>"; };
+		C5E3C9D21D7958B200C1285C /* HBLTabBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBLTabBarViewController.xib; sourceTree = "<group>"; };
+		C5E3C9D51D795CF000C1285C /* HBLBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBLBasicViewController.h; sourceTree = "<group>"; };
+		C5E3C9D61D795CF000C1285C /* HBLBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBLBasicViewController.m; sourceTree = "<group>"; };
+		C5E3C9DC1D79601100C1285C /* UIColor+BFS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BFS.h"; sourceTree = "<group>"; };
+		C5E3C9DD1D79601100C1285C /* UIColor+BFS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BFS.m"; sourceTree = "<group>"; };
+		C5E3C9DF1D7C585C00C1285C /* HBLFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBLFirstViewController.h; sourceTree = "<group>"; };
+		C5E3C9E01D7C585C00C1285C /* HBLFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBLFirstViewController.m; sourceTree = "<group>"; };
+		C5E3C9E11D7C585C00C1285C /* HBLFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBLFirstViewController.xib; sourceTree = "<group>"; };
+		C5E3C9E41D7C5AF000C1285C /* OtherNaviagtionBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherNaviagtionBarViewController.h; sourceTree = "<group>"; };
+		C5E3C9E51D7C5AF000C1285C /* OtherNaviagtionBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherNaviagtionBarViewController.m; sourceTree = "<group>"; };
+		C5E3C9E61D7C5AF000C1285C /* OtherNaviagtionBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherNaviagtionBarViewController.xib; sourceTree = "<group>"; };
+		C5E3C9E91D7C5B0700C1285C /* MyNavigationBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationBarViewController.h; sourceTree = "<group>"; };
+		C5E3C9EA1D7C5B0700C1285C /* MyNavigationBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationBarViewController.m; sourceTree = "<group>"; };
+		C5E3C9EB1D7C5B0700C1285C /* MyNavigationBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyNavigationBarViewController.xib; sourceTree = "<group>"; };
+		C5E3C9EE1D7C5D0D00C1285C /* HBLNavigationBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBLNavigationBarView.h; sourceTree = "<group>"; };
+		C5E3C9EF1D7C5D0D00C1285C /* HBLNavigationBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBLNavigationBarView.m; sourceTree = "<group>"; };
+		C5E3C9F11D7C5EAD00C1285C /* UIView+BFS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BFS.h"; sourceTree = "<group>"; };
+		C5E3C9F21D7C5EAD00C1285C /* UIView+BFS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BFS.m"; sourceTree = "<group>"; };
+		C5E3C9F61D7C6C8100C1285C /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
+		C5E3C9F71D7C6C8100C1285C /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
+		C5E3C9F91D7C6EED00C1285C /* HBLNavigationBarObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBLNavigationBarObject.h; sourceTree = "<group>"; };
+		C5E3C9FA1D7C6EED00C1285C /* HBLNavigationBarObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBLNavigationBarObject.m; sourceTree = "<group>"; };
+		C5E3C9FC1D7C722100C1285C /* UIBarButtonItem+NavItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+NavItem.m"; sourceTree = "<group>"; };
+		C5E3C9FE1D7C723000C1285C /* UIBarButtonItem+NavItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+NavItem.h"; sourceTree = "<group>"; };
+		C5E3C9FF1D7C74E700C1285C /* OtherNextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherNextViewController.h; sourceTree = "<group>"; };
+		C5E3CA001D7C74E700C1285C /* OtherNextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherNextViewController.m; sourceTree = "<group>"; };
+		C5E3CA011D7C74E700C1285C /* OtherNextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherNextViewController.xib; sourceTree = "<group>"; };
+		C5E3CA041D7C754100C1285C /* OtherPreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherPreViewController.h; sourceTree = "<group>"; };
+		C5E3CA051D7C754100C1285C /* OtherPreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherPreViewController.m; sourceTree = "<group>"; };
+		C5E3CA061D7C754100C1285C /* OtherPreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherPreViewController.xib; sourceTree = "<group>"; };
+		C5E3CA091D7C771C00C1285C /* MyNextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNextViewController.h; sourceTree = "<group>"; };
+		C5E3CA0A1D7C771C00C1285C /* MyNextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNextViewController.m; sourceTree = "<group>"; };
+		C5E3CA0B1D7C771C00C1285C /* MyNextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyNextViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5E3C9B31D7916C900C1285C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5E3C9AD1D7916C900C1285C = {
+			isa = PBXGroup;
+			children = (
+				C5E3C9B81D7916C900C1285C /* HBLNavigationBar */,
+				C5E3C9B71D7916C900C1285C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5E3C9B71D7916C900C1285C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5E3C9B61D7916C900C1285C /* HBLNavigationBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5E3C9B81D7916C900C1285C /* HBLNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				C5E3C9DB1D795FEA00C1285C /* library */,
+				C5E3C9BC1D7916C900C1285C /* AppDelegate.h */,
+				C5E3C9BD1D7916C900C1285C /* AppDelegate.m */,
+				C5E3C9BF1D7916C900C1285C /* ViewController.h */,
+				C5E3C9C01D7916C900C1285C /* ViewController.m */,
+				C5E3C9C21D7916C900C1285C /* Main.storyboard */,
+				C5E3C9C51D7916C900C1285C /* Assets.xcassets */,
+				C5E3C9C71D7916C900C1285C /* LaunchScreen.storyboard */,
+				C5E3C9CA1D7916C900C1285C /* Info.plist */,
+				C5E3C9B91D7916C900C1285C /* Supporting Files */,
+				C5E3C9D01D7958B200C1285C /* HBLTabBarViewController.h */,
+				C5E3C9D11D7958B200C1285C /* HBLTabBarViewController.m */,
+				C5E3C9D21D7958B200C1285C /* HBLTabBarViewController.xib */,
+				C5E3C9D51D795CF000C1285C /* HBLBasicViewController.h */,
+				C5E3C9D61D795CF000C1285C /* HBLBasicViewController.m */,
+				C5E3C9DF1D7C585C00C1285C /* HBLFirstViewController.h */,
+				C5E3C9E01D7C585C00C1285C /* HBLFirstViewController.m */,
+				C5E3C9E11D7C585C00C1285C /* HBLFirstViewController.xib */,
+				C5E3C9E41D7C5AF000C1285C /* OtherNaviagtionBarViewController.h */,
+				C5E3C9E51D7C5AF000C1285C /* OtherNaviagtionBarViewController.m */,
+				C5E3C9E61D7C5AF000C1285C /* OtherNaviagtionBarViewController.xib */,
+				C5E3C9E91D7C5B0700C1285C /* MyNavigationBarViewController.h */,
+				C5E3C9EA1D7C5B0700C1285C /* MyNavigationBarViewController.m */,
+				C5E3C9EB1D7C5B0700C1285C /* MyNavigationBarViewController.xib */,
+				C5E3C9EE1D7C5D0D00C1285C /* HBLNavigationBarView.h */,
+				C5E3C9EF1D7C5D0D00C1285C /* HBLNavigationBarView.m */,
+				C5E3C9F91D7C6EED00C1285C /* HBLNavigationBarObject.h */,
+				C5E3C9FA1D7C6EED00C1285C /* HBLNavigationBarObject.m */,
+				C5E3C9FF1D7C74E700C1285C /* OtherNextViewController.h */,
+				C5E3CA001D7C74E700C1285C /* OtherNextViewController.m */,
+				C5E3CA011D7C74E700C1285C /* OtherNextViewController.xib */,
+				C5E3CA041D7C754100C1285C /* OtherPreViewController.h */,
+				C5E3CA051D7C754100C1285C /* OtherPreViewController.m */,
+				C5E3CA061D7C754100C1285C /* OtherPreViewController.xib */,
+				C5E3CA091D7C771C00C1285C /* MyNextViewController.h */,
+				C5E3CA0A1D7C771C00C1285C /* MyNextViewController.m */,
+				C5E3CA0B1D7C771C00C1285C /* MyNextViewController.xib */,
+			);
+			path = HBLNavigationBar;
+			sourceTree = "<group>";
+		};
+		C5E3C9B91D7916C900C1285C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5E3C9BA1D7916C900C1285C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5E3C9DB1D795FEA00C1285C /* library */ = {
+			isa = PBXGroup;
+			children = (
+				C5E3C9FE1D7C723000C1285C /* UIBarButtonItem+NavItem.h */,
+				C5E3C9FC1D7C722100C1285C /* UIBarButtonItem+NavItem.m */,
+				C5E3C9F61D7C6C8100C1285C /* UINavigationBar+Awesome.h */,
+				C5E3C9F71D7C6C8100C1285C /* UINavigationBar+Awesome.m */,
+				C5E3C9DC1D79601100C1285C /* UIColor+BFS.h */,
+				C5E3C9DD1D79601100C1285C /* UIColor+BFS.m */,
+				C5E3C9F11D7C5EAD00C1285C /* UIView+BFS.h */,
+				C5E3C9F21D7C5EAD00C1285C /* UIView+BFS.m */,
+			);
+			name = library;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5E3C9B51D7916C900C1285C /* HBLNavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5E3C9CD1D7916C900C1285C /* Build configuration list for PBXNativeTarget "HBLNavigationBar" */;
+			buildPhases = (
+				C5E3C9B21D7916C900C1285C /* Sources */,
+				C5E3C9B31D7916C900C1285C /* Frameworks */,
+				C5E3C9B41D7916C900C1285C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HBLNavigationBar;
+			productName = HBLNavigationBar;
+			productReference = C5E3C9B61D7916C900C1285C /* HBLNavigationBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5E3C9AE1D7916C900C1285C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Benlinhuo;
+				TargetAttributes = {
+					C5E3C9B51D7916C900C1285C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = C5E3C9B11D7916C900C1285C /* Build configuration list for PBXProject "HBLNavigationBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5E3C9AD1D7916C900C1285C;
+			productRefGroup = C5E3C9B71D7916C900C1285C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5E3C9B51D7916C900C1285C /* HBLNavigationBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5E3C9B41D7916C900C1285C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5E3CA081D7C754100C1285C /* OtherPreViewController.xib in Resources */,
+				C5E3CA0D1D7C771C00C1285C /* MyNextViewController.xib in Resources */,
+				C5E3C9ED1D7C5B0700C1285C /* MyNavigationBarViewController.xib in Resources */,
+				C5E3C9C91D7916C900C1285C /* LaunchScreen.storyboard in Resources */,
+				C5E3C9E81D7C5AF000C1285C /* OtherNaviagtionBarViewController.xib in Resources */,
+				C5E3C9D41D7958B200C1285C /* HBLTabBarViewController.xib in Resources */,
+				C5E3CA031D7C74E700C1285C /* OtherNextViewController.xib in Resources */,
+				C5E3C9E31D7C585C00C1285C /* HBLFirstViewController.xib in Resources */,
+				C5E3C9C61D7916C900C1285C /* Assets.xcassets in Resources */,
+				C5E3C9C41D7916C900C1285C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5E3C9B21D7916C900C1285C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5E3CA0C1D7C771C00C1285C /* MyNextViewController.m in Sources */,
+				C5E3CA021D7C74E700C1285C /* OtherNextViewController.m in Sources */,
+				C5E3C9EC1D7C5B0700C1285C /* MyNavigationBarViewController.m in Sources */,
+				C5E3C9C11D7916C900C1285C /* ViewController.m in Sources */,
+				C5E3C9D31D7958B200C1285C /* HBLTabBarViewController.m in Sources */,
+				C5E3C9FB1D7C6EED00C1285C /* HBLNavigationBarObject.m in Sources */,
+				C5E3C9F01D7C5D0D00C1285C /* HBLNavigationBarView.m in Sources */,
+				C5E3C9DE1D79601100C1285C /* UIColor+BFS.m in Sources */,
+				C5E3C9F31D7C5EAD00C1285C /* UIView+BFS.m in Sources */,
+				C5E3C9BE1D7916C900C1285C /* AppDelegate.m in Sources */,
+				C5E3C9F81D7C6C8100C1285C /* UINavigationBar+Awesome.m in Sources */,
+				C5E3C9FD1D7C722100C1285C /* UIBarButtonItem+NavItem.m in Sources */,
+				C5E3CA071D7C754100C1285C /* OtherPreViewController.m in Sources */,
+				C5E3C9D71D795CF000C1285C /* HBLBasicViewController.m in Sources */,
+				C5E3C9BB1D7916C900C1285C /* main.m in Sources */,
+				C5E3C9E21D7C585C00C1285C /* HBLFirstViewController.m in Sources */,
+				C5E3C9E71D7C5AF000C1285C /* OtherNaviagtionBarViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C5E3C9C21D7916C900C1285C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5E3C9C31D7916C900C1285C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5E3C9C71D7916C900C1285C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5E3C9C81D7916C900C1285C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5E3C9CB1D7916C900C1285C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5E3C9CC1D7916C900C1285C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5E3C9CE1D7916C900C1285C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HBLNavigationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.angejia.member.HBLNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5E3C9CF1D7916C900C1285C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HBLNavigationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.angejia.member.HBLNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5E3C9B11D7916C900C1285C /* Build configuration list for PBXProject "HBLNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5E3C9CB1D7916C900C1285C /* Debug */,
+				C5E3C9CC1D7916C900C1285C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5E3C9CD1D7916C900C1285C /* Build configuration list for PBXNativeTarget "HBLNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5E3C9CE1D7916C900C1285C /* Debug */,
+				C5E3C9CF1D7916C900C1285C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5E3C9AE1D7916C900C1285C /* Project object */;
+}
